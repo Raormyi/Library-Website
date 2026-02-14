@@ -1,0 +1,82 @@
+body{
+    background-color: #b3aa8b;
+    font-family: Cochin, serif;
+}
+
+
+
+a{
+    color: aliceblue;
+    text-decoration-line: none;
+}
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.signup-form input{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    margin: 2px;
+    margin-right: 30%;
+    margin-left: 40%;
+    resize: both;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+textarea {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input {
+    width: 20%;
+    margin-left: 2px;
+}
+
+button {
+    padding: 10px;
+    background-color: #427042;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button .submit{
+    width: 50%;
+}
+
+select {
+    margin: 2px;
+    width: 150px;
+}
+
+th{
+    width: 150px;
+}
+
+
